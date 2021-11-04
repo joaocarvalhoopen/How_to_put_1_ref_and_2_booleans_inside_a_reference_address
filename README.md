@@ -43,7 +43,7 @@ This is a derived work from the **example present on page 642** on the fantastic
 * **Programming Rust: Fast, Safe Systems Development 2nd Edition** <br>
   by Jim Blandy, Jason Orendorff, Leonora F. S. Tindall
 
-**I highly recommend this books!** <br>
+**I highly recommend this book!** <br>
 <br>
 In this book, this example is called ref_with_flag and it allows to have a boolean and a reference without using more space then the reference. The example given, is for 2 byte or more alignment data types, it can't be used for one byte data types like u8, i8 or bool. But can be used with everything else. This can be extrapolated for any type of structure size with even more bytes of alignment, imagine if you have a 20 bytes alignment! <br>
 What could you fit in this space? <br>

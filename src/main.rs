@@ -52,7 +52,7 @@
 //    Programming Rust: Fast, Safe Systems Development 2nd Edition
 //    by Jim Blandy, Jason Orendorff, Leonora F. S. Tindall
 //
-//    I highly recommend this books!
+//    I highly recommend this book!
 // 
 //    In this book, this example is called ref_with_flag and it allows to have a
 //    boolean and a reference without using more space then the reference.
