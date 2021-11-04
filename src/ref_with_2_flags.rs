@@ -32,9 +32,9 @@
 //                 Do values can be terminated in 0, or 4, or 8 ....
 //                 0x00...0000, 0x00...0100, 0x00...1000, 0x00...1100,
 //                 But can't be terminated in 1, or 2, or 3, ....5, or 6, or 7...
-//                 0x00...0001, 0x00...0010, 0x00...0010, 0x00...0011,
+//                 0x00...0001, 0x00...0010, 0x00...0011,
 //                 or
-//                 0x00...0101, 0x00...0110, 0x00...0110, 0x00...0111,
+//                 0x00...0101, 0x00...0110, 0x00...0111,
 //                 Do you see the pattern here?
 //                 So you can use this extra 2 bit values to put the state of your
 //                 2 boolean flags in the some u64 address, in there unused values
@@ -46,7 +46,7 @@
 //
 // Author (derived work): João Nuno Carvalho
 //
-// Derived work from: This is a derived work from the example present on page 640
+// Derived work from: This is a derived work from the example present on page 642
 //                    on the fantastic Rust book:
 //
 //    Programming Rust: Fast, Safe Systems Development 2nd Edition

@@ -29,16 +29,16 @@ Do values can be terminated in 0, or 4, or 8 .... <br>
 ```
 But can't be terminated in 1, or 2, or 3, ....5, or 6, or 7... <br>
 ```
-0x00...0001, 0x00...0010, 0x00...0010, 0x00...0011,
+0x00...0001, 0x00...0010, 0x00...0011,
 or
-0x00...0101, 0x00...0110, 0x00...0110, 0x00...0111,
+0x00...0101, 0x00...0110, 0x00...0111,
 ```
 Do you see the pattern here? <br>
 So you can use this extra 2 bit values to put the state of your 2 boolean flags in the some u64 address, in there unused values or bits. When you return the reference you return always the correct address step.
 
 
 ## Derived work from...
-This is a derived work from the **example present on page 640** on the fantastic Rust book:
+This is a derived work from the **example present on page 642** on the fantastic Rust book:
 
 * **Programming Rust: Fast, Safe Systems Development 2nd Edition** <br>
   by Jim Blandy, Jason Orendorff, Leonora F. S. Tindall
